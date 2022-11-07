@@ -11,5 +11,7 @@ runs:
   using: composite
   steps: 
     - name: Do thing
-      run: echo ${{ github.repository}}
+      run: |
+            echo ${{ github.repository}}
+            echo ${{ env.TESTINGEM}}
       shell: bash
