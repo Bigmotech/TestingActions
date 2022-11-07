@@ -5,7 +5,7 @@ inputs:
   tags:
     description: "Tested"
     required: false
- outputs: {}
+outputs: {}
  
  runs:
    using: composite
