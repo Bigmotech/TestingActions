@@ -1,0 +1,15 @@
+name: stuff
+description: "Things"
+author: "Me"
+inputs:
+  tags:
+    description: "Tested"
+    required: false
+ outputs: {}
+ 
+ runs:
+   using: composite
+   steps: 
+     - name: Do thing
+       run: echo ${{ github.repository}}
+       shell: bash
