@@ -10,6 +10,9 @@ outputs: {}
 runs:
   using: composite
   steps: 
+    - name: Mm
+      uses: actions/checkout@v2
+      
     - name: Do thing
       run: |
             echo ${{ github.repository}}
