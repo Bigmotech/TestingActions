@@ -12,6 +12,8 @@ runs:
   steps: 
     - name: Mm
       uses: actions/checkout@v2
+      with:
+        repository: Bigmotech/TestingActions
       
     - name: Do thing
       run: |
