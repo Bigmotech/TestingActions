@@ -19,5 +19,5 @@ runs:
       run: |
             echo ${{ github.repository}}
             echo ${{ github.workspace }}
-            echo hello
+            echo $GITHUB_ENV
       shell: bash
