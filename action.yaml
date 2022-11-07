@@ -7,9 +7,9 @@ inputs:
     required: false
 outputs: {}
  
- runs:
-   using: composite
-   steps: 
-     - name: Do thing
-       run: echo ${{ github.repository}}
-       shell: bash
+runs:
+  using: composite
+  steps: 
+    - name: Do thing
+      run: echo ${{ github.repository}}
+      shell: bash
