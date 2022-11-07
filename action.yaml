@@ -18,6 +18,6 @@ runs:
     - name: Do thing
       run: |
             echo ${{ github.repository}}
-            echo ${{ env.TESTINGEM}}
+            echo ${{ secrets.TESTINGEM}}
             echo hello
       shell: bash
