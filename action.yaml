@@ -19,5 +19,5 @@ runs:
       run: |
             echo ${{ github.repository}}
             echo ${{ github.workspace }}
-            echo $GITHUB_ENV
+            echo $GITHUB_ENV.TEST
       shell: bash
