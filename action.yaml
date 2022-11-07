@@ -19,6 +19,6 @@ runs:
       run: |
             echo ${{ github.repository}}
             echo ${{ github.workspace }}
-            echo ${{ secrets.TESTINGEM }}
+            echo ${{ secrets.TEST }}
             echo hello
       shell: bash
