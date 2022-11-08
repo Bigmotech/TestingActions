@@ -15,6 +15,9 @@ runs:
 #       with:
 #         repository: Bigmotech/TestingActions
       
+#     - name: Do thing
+#       uses: Bigmotech/TestingActions/.github/workflows/blank.yml@main
+
     - name: Do thing
-      uses: Bigmotech/TestingActions/.github/workflows/blank.yml@main
+      uses: echo help
       
