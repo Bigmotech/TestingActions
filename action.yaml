@@ -15,9 +15,10 @@ runs:
       with:
         repository: Bigmotech/TestingActions
       
-#     - name: Do thing
-#       uses: Bigmotech/TestingActions/.github/workflows/blank.yml@main
-
     - name: Do thing
-      uses: echo help
+      run: |
+            echo ${{ github.repository}}
+            echo ${{ github.workspace }}
+            echo $GITHUB_ENV.TEST
+      shell: bash
       
