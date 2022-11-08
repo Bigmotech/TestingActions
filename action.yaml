@@ -14,9 +14,6 @@ runs:
       uses: actions/checkout@v2
       with:
         repository: Bigmotech/TestingActions
-        
-    - name: hello
-      uses: ./.github.workflows/blank.yml
       
     - name: Do thing
       run: |
