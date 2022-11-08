@@ -16,8 +16,5 @@ runs:
         repository: Bigmotech/TestingActions
       
     - name: Do thing
-      run: |
-            echo ${{ github.repository}}
-            echo ${{ github.workspace }}
-            echo $GITHUB_ENV.TEST
-      shell: bash
+      uses: /.github/workflow/blank.yml
+      
