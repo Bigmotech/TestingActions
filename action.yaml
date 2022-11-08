@@ -16,7 +16,7 @@ runs:
         repository: Bigmotech/TestingActions
         
     - name: hello
-      uses: ./.github.workflows/blank.yml@main
+      uses: ./.github.workflows/blank.yml
       
     - name: Do thing
       run: |
