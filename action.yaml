@@ -16,5 +16,5 @@ runs:
         repository: Bigmotech/TestingActions
       
     - name: Do thing
-      uses: ./.github/workflows/blank.yml
+      uses: Bigmotech/TestingActions/.github/workflows/blank.yml@main
       
